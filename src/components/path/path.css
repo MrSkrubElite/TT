@@ -1,0 +1,132 @@
+/* Fonts */
+@font-face {
+    font-family: poisonlove;
+    src: url(/src/assets/fonts/poisonLove/Poison\ Love\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: classica;
+    src: url(/src/assets/fonts/classica/Classica-Regular.otf);
+}
+
+
+#path {
+    width: 100%;
+    height: 100%;
+}
+
+.path-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+}
+
+
+
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+    box-shadow: 0 10px 60px -10px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+  .hoverrotate:hover {
+    rotate: 3deg;
+    transition: all 0.3s;
+  }
+  
+
+
+  .tarotreading-container {
+    width: 350px;
+}
+
+.tarotreading-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+
+.horoscope-container{
+    width: 350px;
+}
+
+.horoscope-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+
+.crystals-container {
+    width: 350px;
+}
+
+.crystals-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    transition: all 0.3s;
+}
+
+
+.starsBg {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    user-select: none;
+}
+
+.choose-path {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-path {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.564);
+}
+
+.content-path-title h1 {
+    padding-top: 10rem;
+    font-family: classica;
+    font-size: 4rem;
+    text-align: center;
+}
